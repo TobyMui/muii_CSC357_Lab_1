@@ -35,36 +35,10 @@ int main(int argc, char *argv[]){
     printf( "Number of Repititions: %ld \n", num);
     printf( "Word to be printed: %s \n" , argv[2]);
 
-    for(int i = 0 ; i < num ; i++ ){
-        printf("%s\n", argv[2]);
-    }
-
     for(int i = 1; i < argc; i++){
         printf("argv[%d]  =  %s \n", i , argv[i]);
     }
-    
     // wordChecker(argv[2]);
 }
 
-
-
-
-// int main(void){
-//     int repVal; 
-//     char word[20]; 
-
-//     printf("Enter the value of repetition: ");
-//     scanf("%d", &repVal);
-
-//     valueChecker(repVal);
-    
-
-
-//     printf("Enter word to be repeated: ");
-//     scanf("%s", word);
-    
-//     for(int i = 0 ; i < repVal ; i++ ){
-//         printf("%s\n", word);
-//     }
-// }
 
